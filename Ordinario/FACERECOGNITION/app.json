@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "FACERECOGNITION",
+    "slug": "facerecognition",
+    "plugins": [
+      "expo-dev-client",
+      [
+        "react-native-fast-tflite",
+        {
+          "enableAndroidGpuLibraries": true
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.chechorrol.facerecognition"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "70a90dbe-aec4-49f8-a039-731f38a389b3"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "facerecognition",
+  "version": "1.0.0",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "contributors": [
+    "shama (https://github.com/shama)"
+  ],
+  "bin": {
+    "latest": "./bin/latest.js"
+  },
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "dependencies": {
+    "@expo/ngrok": "^4.1.0",
+    "@vladmandic/face-api": "^1.7.15",
+    "expo": "^57.0.26",
+    "expo-camera": "~57.0.6",
+    "expo-dev-client": "~57.0.19",
+    "expo-media-library": "~57.0.5",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-fast-tflite": "^3.0.1",
+    "react-native-nitro-modules": "^0.37.1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "latest",
+    "npm",
+    "version",
+    "up-to-date"
+  ],
+  "private": true
+}
