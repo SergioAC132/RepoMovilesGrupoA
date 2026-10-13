@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu principal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnActivityOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Actividad 1" />
+
+    <Button
+        android:id="@+id/btnActivityTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Actividad 2" />
+
+    <Button
+        android:id="@+id/btnActivityThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Actividad 3" />
+
+</LinearLayout>
