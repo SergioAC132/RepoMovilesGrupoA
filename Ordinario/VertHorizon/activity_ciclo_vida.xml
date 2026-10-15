@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prueba del ciclo de vida"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/etDato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe un dato aquí"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar dato" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El dato aparecerá aquí"
+        android:textSize="18sp"
+        android:padding="16dp" />
+
+</LinearLayout>
