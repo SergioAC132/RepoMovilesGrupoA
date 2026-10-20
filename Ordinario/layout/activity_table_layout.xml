@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo de TableLayout"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TableRow
+        android:background="#1565C0">
+
+        <TextView
+            android:text="Materia"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:text="Calificación"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Android"
+            android:padding="10dp" />
+
+        <TextView
+            android:text="95"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Bases de datos"
+            android:padding="10dp" />
+
+        <TextView
+            android:text="90"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Programación web"
+            android:padding="10dp" />
+
+        <TextView
+            android:text="98"
+            android:padding="10dp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar al menú" />
+
+</TableLayout>
