@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Demo del giroscopio"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/txtGyroX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eje X: 0.00 rad/s"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/txtGyroY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eje Y: 0.00 rad/s"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/txtGyroZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eje Z: 0.00 rad/s"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/txtGyroStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado: esperando lecturas"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver al menú"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

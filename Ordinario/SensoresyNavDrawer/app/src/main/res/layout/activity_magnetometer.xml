@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Demo del magnetómetro"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/txtMagX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campo X: -- µT"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/txtMagY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campo Y: -- µT"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/txtMagZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campo Z: -- µT"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/txtAzimuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Azimut: esperando sensores"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtMagDirection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección: --"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver al menú"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

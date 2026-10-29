@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/nav_accelerometer"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Acelerómetro" />
+
+    <item
+        android:id="@+id/nav_gyroscope"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="Giroscopio" />
+
+    <item
+        android:id="@+id/nav_magnetometer"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="Magnetómetro" />
+
+    <item
+        android:id="@+id/nav_gps"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="GPS" />
+
+</menu>
